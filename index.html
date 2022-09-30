@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayTm | Clone</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                screens: {
+                    sm: "560px",
+
+                    md: "768px",
+
+                    lg: "1024px",
+
+                    xl: "1200px",
+
+                    "2xl": "1536px",
+                },
+
+                extend: {
+                    colors: {
+                        clifford: "#da373d",
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+<body class="bg-white">
+    <!-- Top navbar Section  -->
+        <nav class="w-[100%] h-[60px] shadow-md flex justify-center items-center mt-1">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 cursor-pointer ml-6">
+
+                <img class="h-[80px] sm:h-[60px] md:h-[70px] lg:h-[80px]" src="./images/logo-paytm.png" alt="">
+            </a>
+            <nav class="invisible sm:visible md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900 cursor-pointer text-indigo-800 text-[18px] md:text-[14px] lg:text-[20px] lg:font-bold mx-2">Paytm for Consumer</a>
+                <a class="mr-5 hover:text-gray-900 cursor-pointer text-indigo-800 text-[18px] md:text-[14px] lg:text-[20px] lg:font-bold mx-2">Paytm for Business</a>
+                <a class="mr-5 hover:text-gray-900 cursor-pointer text-indigo-800 text-[18px] md:text-[14px] lg:text-[20px] lg:font-bold mx-2">Company</a>
+                <a class="mr-5 hover:text-gray-900 cursor-pointer text-indigo-800 text-[18px] md:text-[14px] lg:text-[20px] lg:font-bold mx-2">Investor</a>
+                <a class="mr-5 hover:text-gray-900 cursor-pointer text-indigo-800 text-[18px] md:text-[14px] lg:text-[20px] lg:font-bold mx-2">Career</a>
+            </nav>
+            <button class="flex flex-row items-center items-center bg-gray-100 border-[0.5px] py-2 px-8 hover:bg-indigo-600 hover:text-white hover:font-bold bold rounded-full mr-6">
+                Log In<i class="far fa-user"></i>
+                <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">   -->
+            </button>
+            
+        </nav>
+        <!-- shade top header  -->
+        <div class="bg-[#ecedf0] h-[40px] flex justify-center items-center md:h-[50px]">
+            <h1 class="mx-auto text-center font-bold pt-[4px] text-[14px] md:text-[18px]">
+                No Wallet KYC Required <span class="text-[20px] md:text-[26px]">😊</span> <span class="italic font-regular">to pay using UPI on Paytm</span>. <a class="cursor-pointer">Learn More</a>.
+            </h1>
+        </div>
+    
+</body>
+</html>
